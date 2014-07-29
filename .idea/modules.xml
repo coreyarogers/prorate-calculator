@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Prorate Calculator/Prorate Calculator.iml" filepath="$PROJECT_DIR$/Prorate Calculator/Prorate Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProrateCalculator.iml" filepath="$PROJECT_DIR$/ProrateCalculator.iml" />
+    </modules>
+  </component>
+</project>
+

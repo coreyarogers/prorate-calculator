@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.coreyarogers.proratecalculator="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.coreyarogers.proratecalculator.MainActivity" >
+    
+    <item android:id="@+id/menu_item_about"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        com.coreyarogers.proratecalculator:showAsAction="never" />
+
+    <item android:id="@+id/menu_item_share"
+        com.coreyarogers.proratecalculator:showAsAction="ifRoom"
+        android:title="Share Report"
+        android:icon="@android:drawable/ic_menu_share"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+</menu>
+
+

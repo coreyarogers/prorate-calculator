@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.ProrateGreen" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/Theme.ProrateGreen.ActionBar</item>
+        <item name="android:actionMenuTextColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.ProrateGreen.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#00A79D</item>
+
+        <item name="android:titleTextStyle">@style/Theme.ProrateGreen.ActionBar.Text</item>
+    </style>
+
+    <style name="Theme.ProrateGreen.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
+
